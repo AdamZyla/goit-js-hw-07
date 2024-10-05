@@ -23,7 +23,9 @@ function createBoxes(amount) {
 
     boxSize += 10;
   }
-
+  
+  boxesContainer.appendChild(fragment);
+}
   function destroyBoxes() {
     boxesContainer.innerHTML = '';
   }
